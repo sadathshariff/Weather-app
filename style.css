@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Akaya Kanadaka", cursive;
+  background-color: rgb(93, 230, 230);
+}
+:root {
+  --primary-color: #e7e3e7;
+  --secondary-color: #612e61;
+}
+
+.container {
+  padding: 10px;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.hero-heading {
+  padding: 10px 0px;
+  text-align: center;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+
+.hero-img {
+  padding-top: 1rem;
+  display: block;
+  max-width: 450px;
+  margin: auto;
+}
+
+section {
+  text-align: center;
+  padding: 1rem;
+}
+input[type="text"] {
+  height: 30px;
+  width: 400px;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-family: "Akaya Kanadaka", cursive;
+  word-spacing: 8px;
+}
+input[type="button"] {
+  height: 50px;
+  width: 100px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  margin: 5px 5px;
+  border-radius: 0.5rem;
+  font-family: "Akaya Kanadaka", cursive;
+  text-transform: uppercase;
+}
+
+.display {
+  margin-top: 30px;
+  font-size: 1.7rem;
+  color: var(--secondary-color);
+}
+.cityName {
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.temperature {
+  padding: 10px;
+  font-weight: bold;
+}
+.description {
+  padding: 10px;
+  text-transform: capitalize;
+}
