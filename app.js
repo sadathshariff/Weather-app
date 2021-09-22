@@ -8,7 +8,7 @@ let cel = document.querySelector(".tempInCelsius");
 function clickHandler() {
   var inputValue = inputCityName.value;
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=YOUR_API_KEY`
+    `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=60d763a183e9cd9fe4c26b43d74c699c`
   )
     .then((response) => response.json())
     .then((data) => {
